@@ -1,6 +1,7 @@
 import React from 'react';
 
-import QrCode from 'react-native-qrcode';
+//import QrCode from 'react-native-qrcode';
+import QRCode from 'react-native-qrcode-svg';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {
@@ -23,11 +24,11 @@ export default function Menu({translateY}) {
         }),
       }}>
       <Code>
-        <QrCode
+        <QRCode
           value="https://rocketseat.com.br"
           size={80}
-          fgColor="#FFF"
-          bgColor="#8B10AE"
+          color="#FFF"
+          backgroundColor="#8B10AE"
         />
       </Code>
 
