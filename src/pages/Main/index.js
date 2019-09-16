@@ -92,11 +92,11 @@ export default function Main() {
               </CardHeader>
               <CardContent>
                 <Title>Saldo disponível</Title>
-                <Description>R$ 78.000.020,50</Description>
+                <Description>R$ 154.020,50</Description>
               </CardContent>
               <CardFooter>
                 <Annotation>
-                  Transferência de R$ 78.000.000,00 recebida de Caixa Econômica
+                  Transferência de R$ 78,00 recebida de Caixa Econômica
                   06:00h
                 </Annotation>
               </CardFooter>
